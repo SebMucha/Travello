@@ -3,10 +3,12 @@
     box-sizing: border-box;
     margin: 0;
 }
+.top-container, .section-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px 120px;
     position: absolute;
     top: 0;
@@ -14,6 +16,12 @@
     width: 100%;
     border-bottom: 1px solid rgba(255,255,255, 0.2);
     z-index: 3;
+}
+header.header .top-container{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 .blue-box{
     display: inline-flex;
@@ -71,7 +79,7 @@ nav.nav-bar ul li a:after{
     transition: 0.3s;
 }
 nav.nav-bar ul li a:hover{
-    color: red;
+    color: #ff3c78;
 }
 nav.nav-bar ul li a:hover:after{
     width: 100%;
