@@ -18,10 +18,9 @@
     z-index: 3;
 }
 header.header .top-container{
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .blue-box{
     display: inline-flex;
