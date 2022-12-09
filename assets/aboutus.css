@@ -1,6 +1,6 @@
 .about-us{
     display: flex;
-    justify-content: space-evenly;
+    gap: 45px;
     margin: 166px 120px 0 120px;
 }
 .section-left{
