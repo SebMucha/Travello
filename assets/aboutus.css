@@ -1,5 +1,6 @@
 .about-us{
     display: flex;
+    justify-content: center;
     gap: 45px;
     margin: 166px 120px 0 120px;
 }
@@ -34,7 +35,7 @@
     gap: 10px;
 }
 
-.about-us-top-link{
+.about-us-top-bluetext{
     text-decoration: none;
     color: #2094E6;
     font-family: 'Playfair Display';
