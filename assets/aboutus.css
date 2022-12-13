@@ -1,14 +1,14 @@
 .about-us{
+    margin-bottom: 100px;
+}
+.about-us-container{
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 45px;
-    margin: 166px 120px 0 120px;
+    gap: 125px;
+    margin: 0 auto;
 }
-.section-left{
-    width: 667px;
-    height: 546px;
-}
-.section-right{
+.about-us-right{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -16,17 +16,20 @@
     gap: 20px;
 }
 .fountain-img{
-    position: absolute;
     border: 2px solid #E3DEC1;
+    border-top: none;
     padding: 10px;
-    gap: 10px;
-    top: 0;
-    left: 0;
+    max-width: 577px;
+    display: block;
+    max-width: 577px;
+    max-height: 425px;
 }
 .mountain-img{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -60px;
+    right: -50px;
+    max-width: 386px;
+    max-height: 263px;
 }
 
 .about-us-top{
@@ -36,7 +39,6 @@
 }
 
 .about-us-top-bluetext{
-    text-decoration: none;
     color: #2094E6;
     font-family: 'Playfair Display';
     font-weight: 500;
@@ -54,4 +56,47 @@
    font-family: 'Work Sans';
    font-size: 18px;
    line-height: 150%;
+}
+
+
+@media( max-width: 1024px ){
+    .about-us-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+        gap: 35px;
+    }
+    .mountain-img{
+        bottom: 0;
+        right: 0;
+    }
+    .about-us-pics{
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .about_left{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .about-us-top-h2{
+        font-size: 25px;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+
+    .fountain-img{
+        width: 50%;
+        max-width: 50%;
+        max-height: 250px;
+        padding: 0;
+        border: none;
+    }
+    .mountain-img{
+        position: relative;
+        width: 50%;
+        max-width: 50%;
+    }
 }

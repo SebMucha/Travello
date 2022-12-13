@@ -9,12 +9,11 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header{
     padding: 20px 120px;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     border-bottom: 1px solid rgba(255,255,255, 0.2);
     z-index: 3;
@@ -85,6 +84,7 @@ nav.nav-bar ul li a:hover:after{
     display: flex;
     align-items: center;
     min-height: 660px;
+    margin-bottom: 166px;
 }
 section.section figure{
     position: absolute;
