@@ -66,6 +66,10 @@
         padding: 0 10px;
         gap: 35px;
     }
+    .about-us-right{
+        width: 100%;
+        align-self: flex-start;
+    }
     .mountain-img{
         bottom: 0;
         right: 0;
@@ -85,8 +89,8 @@
     }
     .about-us-text{
         font-size: 15px;
+        max-width: 100%;
     }
-
     .fountain-img{
         width: 50%;
         max-width: 50%;
@@ -101,7 +105,7 @@
     }
 }
 
-/* about us section end */
+/* about us section finished */
 /* frames section start */
 
 .frames{
@@ -117,11 +121,10 @@
 .frame{
     box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
     padding: 35px 25px 25px;
-    /* transition-timing-function: ease-in-out; */
+    transition: 0.5s ease-in-out;
 }
 .frame:hover{
     transform:rotateX(30deg);
-    transition: 0.5s;
 }
 .frame-h2{
     font-family: 'Playfair Display';
@@ -141,3 +144,18 @@
     margin-bottom:14px;
 }
 
+@media( max-width: 1024px ){
+    .frames{
+        margin: 60px 20px 50px 20px;
+    }
+    .frames-list{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .frame{
+        padding: 30px 20px 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+/* frames section finished */
