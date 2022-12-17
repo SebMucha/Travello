@@ -19,17 +19,13 @@
     border: 2px solid #E3DEC1;
     border-top: none;
     padding: 10px;
-    max-width: 577px;
+    /* max-width: 577px; */
     display: block;
-    max-width: 577px;
-    max-height: 425px;
 }
 .mountain-img{
     position: absolute;
     bottom: -60px;
     right: -50px;
-    max-width: 386px;
-    max-height: 263px;
 }
 
 .about-us-top{
@@ -67,18 +63,10 @@
         gap: 35px;
     }
     .about-us-right{
-        width: 100%;
         align-self: flex-start;
-    }
-    .mountain-img{
-        bottom: 0;
-        right: 0;
     }
     .about-us-pics{
         display: flex;
-        align-items: center;
-        width: auto;
-        height: auto;
     }
     .about_left{
         margin-right: 0;
@@ -91,17 +79,24 @@
         font-size: 15px;
         max-width: 100%;
     }
+    .about-us-figure{
+        height: 250px;
+    }
     .fountain-img{
         width: 50%;
         max-width: 50%;
-        max-height: 250px;
         padding: 0;
+        max-height: 100%;
         border: none;
     }
     .mountain-img{
         position: relative;
         width: 50%;
         max-width: 50%;
+        max-height: 100%;
+        object-fit: cover;
+        bottom: 0;
+        right: 0;
     }
 }
 
