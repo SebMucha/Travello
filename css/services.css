@@ -109,6 +109,9 @@ section.our-services div.title h2.title-h2 {
   section.our-services {
     margin-bottom: 50px;
   }
+  section.our-services div.title h2.title-h2 {
+    font-size: 30px;
+  }
   section.our-services div.service-container {
     width: 100%;
   }

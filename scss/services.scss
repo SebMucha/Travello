@@ -77,13 +77,15 @@ section.our-services{
             font-weight: 500;
             font-size: 45px;
             line-height: 60px;
-           
         }
     }
 }
 @media(max-width: 1024px){
     section.our-services{
         margin-bottom: 50px;
+        div.title h2.title-h2{
+            font-size: 30px;
+        }
         div.service-container{
             width: 100%;
             .services-list{
@@ -91,6 +93,6 @@ section.our-services{
                 align-items: center;
               }
         } 
-
     }
+
 }
