@@ -12,6 +12,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     gap: 125px;
+    width: 1200px;
     margin: 0 auto;
   }
   .about-us .about-us-container .about-us-left figure.about-us-pics .fountain-img {
@@ -172,6 +173,7 @@
       margin: 60px 20px 50px 20px;
     }
     section.frames .frames-list {
+      width: 100%;
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
